@@ -216,44 +216,6 @@ public class LangUtil {
             put(Language.ES, "Enviar la consola al canal asignado");
             put(Language.RU, "Вывод консоли успешно перенаправлен в канал");
             put(Language.ET, "Konsooliedastus on kanalile määratud");
-        }}), SPONSOR_PEBBLE(new HashMap<Language, String>() {{
-            put(Language.EN, "===============================================================================\n" +
-                             "         Need a server host? Try PebbleHost! Plans starting at $1/GB!\n" +
-                             " Use promo code \"DISCORDSRV\" at checkout for 15% off your first three bills!\n" +
-                             "===============================================================================");
-            put(Language.FR, "=================================================================\n" +
-                             "          Besoin d'un hôte serveur? Essayez PebbleHost!\n" +
-                             "           Plans budgétaires à partir de $ 12/GB!\n" +
-                             "    Utilisez le code promotionnel \"DISCORDSRV\" à la caisse\n" +
-                             " pour obtenir 15% de réduction sur vos trois premières factures!\n" +
-                             "=================================================================");
-            put(Language.JA, "===========================================================================================\n" +
-                             "           サーバーホストが必要ですか。 PebbleHostを試してください。 1ドル/ GBからの計画\n" +
-                             " あなたの最初の3つの手形から15％のチェックアウトでプロモーションコード「DISCORDSRV」を使ってください！\n" +
-                             "===========================================================================================");
-            put(Language.KO, "=====================================================================================\n" +
-                             "   서버 호스트가 필요합니까? PebbleHost를 사용해보십시오! $ 1 / GB부터 시작하는 예산 계획!\n" +
-                             "  체크 아웃시 프로모션 코드 \"DISCORDSRV\"를 사용하여 첫 3 건의 청구서를 15 % 할인하십시오!\n" +
-                             "=====================================================================================");
-            put(Language.NL, "===================================================================\n" +
-                             " Een serverhost nodig? Probeer PebbleHost! Plannen vanaf $ 1 / GB!\n" +
-                             "    Gebruik promocode \"DISCORDSRV\" bij het afrekenen voor 15%\n" +
-                             "                korting op uw eerste drie rekeningen!\n" +
-                             "===================================================================");
-            put(Language.ES, "===============================================================================\n" +
-                             "   ¿Necesitas un anfitrión? ¡Prueba PebbleHost! Planes a partir de $ 1 / GB!\n" +
-                             "    Use el código de promoción \"DISCORDSRV\" en la caja para obtener un 15%\n" +
-                             "                   de descuento en sus primeras tres facturas.\n" +
-                             "===============================================================================");
-            put(Language.RU, "===========================================================================\n" +
-                             "   Нужен сервер? Попробуйте PebbleHost! Планы начинаются с $ 1 / гигабайт\n" +
-                             "  При оформлении заказа используйте промо-код «DISCORDSRV», чтобы получить\n" +
-                             "                        скидку 15% на первые три счета!\n" +
-                             "===========================================================================");
-            put(Language.ET, "=======================================================================================\n" +
-                             "   Kas teil on vaja serveri hosteid? Proovige PebbleHost'i! Plaanid alates $ 1 / GB!\n" +
-                             " Kasutage promo koodi \"DISCORDSRV\", et saada oma esimese kolme arve 15% allahindlus!\n" +
-                             "=======================================================================================");
         }}), FOUND_SERVER(new HashMap<Language, String>() {{
             put(Language.EN, "Found server");
             put(Language.FR, "Serveur trouvé");

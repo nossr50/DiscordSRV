@@ -233,12 +233,6 @@ public class DiscordSRV extends JavaPlugin implements Listener {
             if (!isEnabled()) return; // don't load other shit if the plugin was disabled by the update checker
         }
 
-        // PebbleHost sponsor
-        for (String s : LangUtil.InternalMessage.SPONSOR_PEBBLE.toString().split("\n")) {
-            ChatColor color = s.startsWith("=") ? ChatColor.DARK_GRAY : ChatColor.GREEN;
-            getLogger().info(color + s);
-        }
-
         // random phrases for debug handler
         if (!getConfig().getBoolean("RandomPhrasesDisabled"))
             Collections.addAll(randomPhrases, HttpUtil.requestHttp("https://raw.githubusercontent.com/Scarsz/DiscordSRV/randomaccessfiles/randomphrases").split("\n"));
